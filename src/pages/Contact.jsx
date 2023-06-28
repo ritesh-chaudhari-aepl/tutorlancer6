@@ -13,7 +13,7 @@ const Contact = () => {
 
   const showToastMessage =async () => {
     const data={
-      device_number:"Device 10",
+      device_number:"Device 5",
       name,
       email ,
       phone ,
