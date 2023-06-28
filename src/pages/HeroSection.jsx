@@ -4,7 +4,6 @@ import bannerrightimage from "@/assets/heroImg1.png";
 import Image from "next/image";
 
 const HeroSection = () => {
-   
   const banner = {
     // backgroundImage: "url(" + `${bgbanner}` + ")",
     backgroundSize: "cover",
@@ -60,7 +59,7 @@ const HeroSection = () => {
           </div>
           <div className="flex md:w-1/2 w-full justify-end sm:text-right">
             <Image
-              className="md:w-[80%] xl:w-full w-full"
+              className="h-fit xl:w-[80%]"
               alt="Party"
               src={bannerrightimage}
             />

@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
 import Nav from "./navbar/Navbar";
-import MobileNav from "./navbar/Mobilenav";
-import logo from '@/assets/logo.png'
+import MobileNav from "./navbar/MobileNav";
+import logo from "@/assets/D5-blue.png";
 import Image from "next/image";
 function Header({ myRef }) {
   // mobile nav state
@@ -19,13 +19,17 @@ function Header({ myRef }) {
       window.scrollY > 70 ? setIsActive(true) : setIsActive(false);
     });
   });
-  function handleScroll(section){
-    let value=document.getElementById(section)
-    console.log(value)
-    if(value){
-        value.scrollIntoView({behavior:"smooth",block:'center',inline:'center'})
+  function handleScroll(section) {
+    let value = document.getElementById(section);
+    console.log(value);
+    if (value) {
+      value.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "center",
+      });
     }
-}
+  }
   return (
     <header
       className={`${
@@ -38,7 +42,7 @@ function Header({ myRef }) {
         {/* logo */}
         <a href="/">
           <span className="font-Inter font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
-             <Image width={100} src={logo} alt="logo"/>
+            <Image className=" w-36" src={logo} alt="logo" />
           </span>
         </a>
         {/* nav - initially hidden - show on desktop mode */}
@@ -46,9 +50,8 @@ function Header({ myRef }) {
           <Nav ref={myRef} />
         </div>
         <div className="hidden sm:block">
-          
           <a
-            onClick={()=>handleScroll('contact')}
+            onClick={() => handleScroll("contact")}
             className="inline-block cursor-pointer rounded-full   bg-contact text-normalWhite px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
             Chat With Us

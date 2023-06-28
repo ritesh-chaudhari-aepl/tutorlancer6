@@ -37,7 +37,7 @@ export default function Testimonial(){
               </svg>
                 
                              </div>
-               <div className='px-4'> Tutorlancer has helped me not only understand the subject but master the answering techniques required to obtain a istinction. the material is not only well compiled and organies but helps immensely with revision.</div>
+               <div className='px-4'> Grade Booster has helped me not only understand the subject but master the answering techniques required to obtain a istinction. the material is not only well compiled and organies but helps immensely with revision.</div>
                         <div className='font-serif pt-3 text-xl font-bold'>Jhon Dev</div>
                         <div className='font-sans text-sm'>UI/UX Designer</div>
 
