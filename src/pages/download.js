@@ -67,7 +67,7 @@ const Download = () => {
             <span className="text-[15px] font-QuickSand font-light leading-0 text-center">
               clients rate on
               <br />
-              Top Grades Experts
+              Grade Booster Experts
             </span>
           </div>
         </div>

@@ -26,7 +26,7 @@ const About = () => {
             <div className="grid px-0 sm:px-12 lg:grid-flow-col grid-flow-row grid-cols-1 lg:grid-cols-2">
                 <div className="lg:py-20 sm:py-10 py-0 sm:px-10 px-0 lg:px-7"><Image className="" src={aboutImg} alt="not found" /></div>
                 <div className="lg:py-20 py-7 px-7">
-                    <div className="font-sans font-bold text-normalWhite py-4 text-3xl">About Tutorlancer</div>
+                    <div className="font-sans font-bold text-normalWhite py-4 text-3xl">About Grade Booster</div>
                     <div className="text-normalWhite py-4 text-sm">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
                     <div className="text-normalWhite text-sm">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
                 </div>
